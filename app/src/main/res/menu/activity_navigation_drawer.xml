@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_change_course"
+            android:icon="@drawable/ic_course"
+            android:title="@string/change_course" />
+        <item
+            android:id="@+id/nav_upgrade"
+            android:icon="@drawable/ic_upgrade"
+            android:title="@string/upgrade" />
+        <item
+            android:id="@+id/work_mail"
+            android:icon="@drawable/ic_nav_workmail"
+            android:title="Inbox/Message" />
+
+        <item
+            android:id="@+id/chat"
+            android:icon="@drawable/ic_forum"
+            android:title="@string/chat" />
+        <item
+            android:id="@+id/nav_invite_friend"
+            android:icon="@drawable/ic_invite_friend"
+            android:title="@string/inviteafriend" />
+
+        <!--<item-->
+        <!--android:id="@+id/nav_settings"-->
+        <!--android:icon="@drawable/ic_settings"-->
+        <!--android:title="@string/settings" />-->
+        <item
+            android:id="@+id/help"
+            android:visible="false"
+            android:icon="@drawable/ic_chat_bubble_outline_black_24dp"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/nav_verify_email_mobile"
+            android:icon="@drawable/ic_check_black_24dp"
+            android:title="Verify Mobile/Email"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+    </group>
+</menu>

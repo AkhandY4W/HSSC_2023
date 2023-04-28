@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vlonjatg.progressactivity.ProgressRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_sign_up3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/sv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+                <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+                    android:id="@+id/et_college"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/college"
+                    android:imeOptions="actionNext"
+                    app:met_clearButton="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelText="@string/college"
+                    app:met_primaryColor="?colorAccent"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+                    android:id="@+id/et_degree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/degree"
+                    android:imeOptions="actionNext"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelText="@string/degree"
+                    app:met_primaryColor="?colorAccent"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+                    android:id="@+id/et_specialization"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/specialization"
+                    android:imeOptions="actionNext"
+                    app:met_clearButton="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelText="@string/specialization"
+                    app:met_primaryColor="?colorAccent"
+                    app:met_singleLineEllipsis="true" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/et_batch_from"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/batch_from"
+                        android:layout_weight="1"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        app:met_clearButton="true"
+                        app:met_floatingLabel="highlight"
+                        android:layout_marginRight="8dp"
+                        app:met_floatingLabelText="@string/batch_from"
+                        app:met_helperTextColor="@color/colorAccent"
+                        app:met_primaryColor="?colorAccent"
+                        app:met_singleLineEllipsis="true" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/et_batch_to"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/batch_to"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:layout_marginLeft="8dp"
+                        app:met_clearButton="true"
+                        android:layout_weight="1"
+                        app:met_floatingLabel="highlight"
+                        app:met_floatingLabelText="@string/batch_to"
+                        app:met_helperTextColor="@color/colorAccent"
+                        app:met_primaryColor="?colorAccent"
+                        app:met_singleLineEllipsis="true" />
+                </LinearLayout>
+                <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+                    android:id="@+id/et_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/location"
+                    android:imeOptions="actionDone"
+                    app:met_clearButton="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelText="@string/location"
+                    app:met_primaryColor="?colorAccent"
+                    app:met_singleLineEllipsis="true" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/check_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorAccent"
+                        android:theme="@style/MyCheckBox" />
+
+                    <TextView
+                        android:id="@+id/termAndCondition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="I Accept Terms and Conditions"
+                        android:layout_marginLeft="4dp"
+                        android:onClick="onClick"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorAccent"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <com.youth4work.HSSC_2023.ui.views.PrepButton
+            android:id="@+id/btn_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/sign_up"
+            android:textColor="@android:color/white"
+            app:buttonColor="@color/curiousBlue"
+            app:cornerRadius="3dp"
+            app:shadowEnabled="false"
+            app:shadowHeight="1dp" />
+    </RelativeLayout>
+</com.vlonjatg.progressactivity.ProgressRelativeLayout>

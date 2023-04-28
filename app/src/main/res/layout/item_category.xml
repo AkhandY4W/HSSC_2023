@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    tools:ignore="MissingPrefix">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <com.youth4work.HSSC_2023.ui.views.CustomTextViewFontRegular
+            android:id="@+id/txt_exam_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:text="JEE JEEJEEJEEJEEJEEJEEJEE JEddddddd"
+            android:textColor="@color/mine_shaft"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/img_test_takers"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/txt_exam_name"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_test_takers" />
+
+        <com.youth4work.HSSC_2023.ui.views.CustomTextViewFontRegular
+            android:id="@+id/txt_exam_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_exam_name"
+            android:layout_marginTop="5dp"
+            android:text="@string/eng"
+            android:textColor="@color/mako"
+            android:textSize="@dimen/fourteen_sp" />
+
+        <com.youth4work.HSSC_2023.ui.views.CustomTextViewFontRegular
+            android:id="@+id/txt_exam_attempts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/txt_exam_category"
+            android:layout_below="@+id/img_test_takers"
+            android:text="230 aspirants"
+            android:textColor="@color/dove_gray"
+            android:textSize="@dimen/fourteen_sp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

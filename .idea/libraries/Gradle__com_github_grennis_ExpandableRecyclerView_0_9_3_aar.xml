@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.grennis:ExpandableRecyclerView:0.9.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/672418fd9993cd1b6635740a2eeb6703/jetified-ExpandableRecyclerView-0.9.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/672418fd9993cd1b6635740a2eeb6703/jetified-ExpandableRecyclerView-0.9.3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.grennis/ExpandableRecyclerView/0.9.3/e54296b828b94359d84aa7227253caa679b61fa6/ExpandableRecyclerView-0.9.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

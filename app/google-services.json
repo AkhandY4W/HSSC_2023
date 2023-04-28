@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "169272268933",
+    "firebase_url": "https://aiims-mbbs.firebaseio.com",
+    "project_id": "aiims-mbbs",
+    "storage_bucket": "aiims-mbbs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169272268933:android:bda68feb1775067b",
+        "android_client_info": {
+          "package_name": "com.youth4work.HSSC_2023"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169272268933-kgccbbc11u5ctduotl50072cg9lca5mp.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "169272268933-sr7nb0lnum06sfg93jn6i2t70i7l02on.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4EcaTrb2syseIIs7WCUlLs4ZDvIlWOSA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-16703189-23"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

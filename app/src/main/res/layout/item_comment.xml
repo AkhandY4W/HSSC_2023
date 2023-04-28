@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    tools:ignore="MissingPrefix">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_height="match_parent">
+
+        <com.github.siyamed.shapeimageview.CircularImageView
+            android:id="@+id/img_user_avatar"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_below="@+id/comment_image"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="14dp"
+            android:layout_alignParentLeft="true" />
+
+        <com.youth4work.HSSC_2023.ui.views.CustomTextViewFontRegular
+            android:id="@+id/txt_comment_date_time"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/txt_comment_date_time"
+            android:text="A. This is the correct answer"
+            android:textColor="@color/bombay" />
+
+        <com.youth4work.HSSC_2023.ui.views.CustomTextViewFontRegular
+            android:id="@+id/txt_commented_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amit"
+            android:textSize="@dimen/text_size_12"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/img_user_avatar"
+            android:layout_below="@+id/comment_image"
+            android:textColor="@color/txt_black_30"
+            android:layout_toRightOf="@+id/img_user_avatar" />
+
+        <com.youth4work.HSSC_2023.ui.views.CustomTextViewFontRegular
+            android:id="@+id/txt_comment"
+            android:layout_width="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_height="wrap_content"
+            android:text="A. This is the correct answer"
+            android:textColor="@color/txt_black"
+            android:textSize="@dimen/text_size_16"
+            android:layout_alignParentLeft="true" />
+        <ImageView
+            android:id="@+id/comment_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_view_small"
+            android:visibility="gone"
+            android:layout_below="@+id/txt_comment"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+

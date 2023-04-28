@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.daasuu:animateHorizontalProgressBar:0.2.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5afa174fc8d9a3b4d9ad85372119ad2/jetified-animateHorizontalProgressBar-0.2.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5afa174fc8d9a3b4d9ad85372119ad2/jetified-animateHorizontalProgressBar-0.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5afa174fc8d9a3b4d9ad85372119ad2/jetified-animateHorizontalProgressBar-0.2.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.daasuu/animateHorizontalProgressBar/0.2.2/e91088e99dcfc2ef54b297a8f6a6bd50e191e741/animateHorizontalProgressBar-0.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.daasuu/animateHorizontalProgressBar/0.2.2/42ac3e3d8110a5cd33876fd35b2473bc6716556/animateHorizontalProgressBar-0.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
